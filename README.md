@@ -1,0 +1,1 @@
+# fujinons.github.io
