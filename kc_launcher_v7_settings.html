@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>KC Launcher V7.x Settings</title>
+	<link rel="icon" href="https://i.imgur.com/XZQh2Ns.png" type="image/x-icon">
+	<style>
+		@font-face {
+			font-family: UDDigiKyokashoN-B;
+			src: url(UDDigiKyokashoN-B.ttc);
+		}
+
+		.glow {
+			font-size: 80px;
+			color: #fff;
+			text-align: center;
+			animation: glow 2s ease-in-out infinite alternate;
+		}
+
+		.glow3 {
+			font-size: 80px;
+			color: #fff;
+			text-align: center;
+			animation: glow 2s ease-in-out infinite alternate;
+		}
+
+		.glow1 {
+			font-size: 80px;
+			color: #fff;
+			text-align: center;
+			animation: glow 2s ease-in-out infinite alternate;
+		}
+
+		.create {
+			font-size: 80px;
+			color: #fff;
+			text-align: center;
+			animation: glow 2s ease-in-out infinite alternate;
+		}
+
+		@-webkit-keyframes glow {
+			from {
+				text-shadow: 0 0 10px rgb(99, 190, 208), 0 0 20px rgb(99, 190, 208), 0 0 30px rgb(0, 78, 183), 0 0 40px rgb(0, 78, 183), 0 0 50px rgb(0, 78, 183), 0 0 60px rgb(0, 4, 255), 0 0 70px rgb(0, 4, 255);
+			}
+		}
+
+		body {
+			font-family: Comic Sans MS;
+			background: linear-gradient(135deg, #000000 0%, #3d3d3d 100%);
+			background-position: top;
+			background-attachment: fixed;
+			/*padding-top: 20vh;*/
+			color: white;
+			text-align: center;
+		}
+
+		h1.glow1 {
+			font-size: 1rem;
+			padding-top: 5vh;
+			color: rgb(255, 251, 0);
+		}
+
+		h1.create {
+			font-size: 1rem;
+			padding-top: 5vh;
+			color: rgb(255, 251, 0);
+			cursor: pointer;
+		}
+
+		h1.glow2 {
+			font-size: 1.2rem;
+		}
+
+		h1.glow3 {
+			font-size: 1rem;
+			padding-top: 0vh;
+			color: rgb(255, 251, 0);
+		}
+
+		/* ปุ่ม */
+		.button {
+			background-color: #0084ff;
+			border: none;
+			color: white;
+			padding: 10px 15px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 5px 4px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 class="glow">KC Launcher</h1>
+
+	<h1 class="glow1">
+		วิธีตั้งค่า KC Launcher V7.1
+	</h1>
+
+	<form action="http://fujinons.github.io/!">
+		<input class="button" type="submit" value="วิธีตั้งค่า KC Launcher V7.1 - YouTube">
+	</form>
+
+	<!-- หมวด Launcher -->
+	<h1 class="glow2">
+		[หมวด Llauncher]
+	</h1>
+	<a><img src="https://i.imgur.com/kifMXVH.png"></a>
+
+	<h1 class="glow2">
+		I_Title คือชื่อโปรแกรมสำหรับแสดงบน Launcher<br>
+		I_Version คือข้อมูลเวอร์ชั่นสำหรับแสดงบน Launcher และสำหรับระบบเช็คเวอร์ชั่น<br>
+		I_Uninstall คือชื่อไฟล์สำหรับถอนการติดตั้ง<br>
+	</h1>
+
+	<!-- หมวด Sound Effects -->
+	<h1 class="glow2">
+		[หมวด Sound Effects]
+	</h1>
+	<a><img src="https://i.imgur.com/3mXh3vI.png"></a>
+
+	<!-- หมวด FiveM -->
+	<h1 class="glow2">
+		[หมวด FiveM]
+	</h1>
+	<a><img src="https://i.imgur.com/Q6znVkj.png"></a>
+	<h1 class="glow2">
+		*หัวข้อ* หน้าที่ของแต่ละสี<br>
+		สีชมพูคือเลือกโหมดเชื่อมต่อที่จะใช้ใน Launcher โดยที่จะนำตัวเลข 0,1,2 มาใส่เป็นตัวเลขแทนค่าโหมดต่างๆ เช่น<br>
+		สีแดงคือโหมดเชื่อมต่อแบบ IP แทนค่าเป็นเลข 0<br>
+		สีส้มคือโหมดเชื่อมต่อแบบ Join ID แทนค่าเป็นเลข 1<br>
+		สีเหลืองคือโหมดเชื่อมต่อแบบ Http แทนค่าเป็นเลข 2<br><br>
+
+		*หัวข้อ* ตั้งค่าโหมดเชื่อมต่อ<br>
+		โหมดเชื่อมต่อแบบ IP จะต้องกำหนดค่าให้ FiveM_IP และ FiveM_Port แบบตัวอย่างที่ให้ไป<br>
+		โหมดเชื่อมต่อแบบ Join ID จะต้องกำหนดค่าให้ FiveM_JoinID แบบตัวอย่างที่ให้ไป<br>
+		(คุณสามารถดูผ่าน https://servers.fivem.net/ และค้นหาเซิร์ฟเวอร์ของคุณ Join ID คุณจะอยู่ไกล้ๆกับปุ่ม Connect)<br>
+		โหมดเชื่อมต่อแบบ Http จะต้องกำหนดค่าให้ FiveM_Http ซึ่งจะเป็นในรูปแบบโดเมนเนม หรือ IP ที่นำหน้าด้วย
+		http://127.0.0.1:30120/ แบบตัวอย่างที่ให้ไป<br><br>
+
+		*หัวข้อ* วิธีเลือกโหมดเชื่อมต่อ<br>
+		ให้กำหนดเลขแทนค่าให้ FiveM_Connect_Mode เป็น โหมดที่คุณจะใช้งาน เช่น 0,1,2 โปรดเลือกโหมดใดโหมดหนึ่ง
+		แบบตัวอย่างที่ให้ไป<br>
+		(เลขแทนค่าของแต่ละโหมดจะอยู่ใน *หัวข้อ* หน้าที่ของแต่ละสี )
+	</h1>
+
+	<!-- หมวด TokoVoip -->
+	<h1 class="glow2">
+		[หมวด TokoVoip]
+	</h1>
+	<a><img src="https://i.imgur.com/qZEXAoR.png"></a>
+
+	<!-- หมวด Ts3 -->
+	<h1 class="glow2">
+		[หมวด Ts3 (TeamSpeak)]
+	</h1>
+	<a><img src="https://i.imgur.com/lRnm1IO.png"></a>
+
+	<!-- หมวด ลิ้งค์ทั่วไป -->
+	<h1 class="glow2">
+		[หมวด ลิ้งค์ทั่วไป]
+	</h1>
+	<a><img src="https://i.imgur.com/NH6merR.png"></a>
+
+	<h1 class="create" onclick="document.location='https://www.facebook.com/fujino.jin'">Created Launcher by Facebook:
+		Kroekchai KC (Fujino N's)</h1>
+	<h1 class="glow3" onclick="document.location=''">copyright © Fujino 2020</h1>
+</body>
+
+</html>
